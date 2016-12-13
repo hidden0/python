@@ -5,6 +5,6 @@ Defines a routine set of functions for handling data structures, file I/O, as we
 How to use here
 
 ## Library
-- bubbleSort.py
+- [bubbleSort.py](lib/bubbleSort.py)
 
    This function will sort any form of array, and has a built in test suite to validate output to observe the results.
