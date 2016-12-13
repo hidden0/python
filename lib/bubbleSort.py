@@ -31,8 +31,7 @@ def bubbleSort(theArray, ascending):
 	# The array should be sorted at this point
 	return theArray
 
-'''
-# Test suite
+''' # Test suite
 print "Bubble Sort Test Suite"
 print "-----------------------------------"
 print "Test array:"
@@ -60,5 +59,14 @@ complexArray = ["Apple", "Ardvark", "John", "Joe", "Zebra", "Marge", "Moxy", "Ni
 print complexArray
 print "Sorted Ascending: " + str(bubbleSort(complexArray, True))
 print "Sorted Descending: " + str(bubbleSort(complexArray, False))
+print "\n"
+
+print "Mixed ASCII Test array:"
+
+mixedArray = ["1Apple", "0Ardvark", "5John", "4Joe", "Zebra3", "9Marge", "9Moxy", "0Marge", "0Moxy", "7Niagra", "1Noob3"]
+
+print mixedArray
+print "Sorted Ascending: " + str(bubbleSort(mixedArray, True))
+print "Sorted Descending: " + str(bubbleSort(mixedArray, False))
 print "\n"
 '''
