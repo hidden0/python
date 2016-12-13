@@ -1,7 +1,7 @@
 #!/usr/bin/python
 '''
 Description:	Issues a binary search on the array. A binary search will only be successful
-				if the provided array is already sorted (such as with [bubbleSort.py](lib/bubbleSort.py))
+				if the provided array is already sorted (such as with ~/lib/bubbleSort.py)
 
 Param: 			Array to sort - theArray.
 Param:			Target to hit (value) - target
@@ -51,7 +51,7 @@ def binarySearch(theArray, target, ascending):
 	return answer
 
 ''' # Test suite
-import bubbleSort # needed to sort the array [bubbleSort.py](lib/bubbleSort.py)
+import bubbleSort # needed to sort the array ~/lib/bubbleSort.py
 
 print "Binary Sort Test Suite"
 print "-----------------------------------"
