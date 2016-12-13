@@ -6,4 +6,5 @@ How to use here
 
 ## Library
 - bubbleSort.py
-- - This function will sort any form of array, and has a built in test suite to validate output to observe the results.
+
+   This function will sort any form of array, and has a built in test suite to validate output to observe the results.
