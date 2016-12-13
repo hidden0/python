@@ -1,10 +1,16 @@
 #!/usr/bin/python
-# Performs a bubble sort, with built in test function if needed.
-# Param: Array to sort - theArray.
-# Param: Boolean Ascending - True/False
-# Return: Returns a sorted array as defined.
+'''
+Description:	Performs a bubble sort, with built in test function if needed.
 
-def bubbleSort(theArray, ascending):
+Param: 			Array to sort - theArray.
+Param: 			Boolean Ascending - True/False
+Return: 		Returns the given array sorted per the options of the function.
+
+Author:			Johnathan Thorne
+Date:			12/12/16
+'''
+
+def bSort(theArray, ascending):
 	# Assume we traverse the array at least once
 	swap = True
 
@@ -39,8 +45,8 @@ print "Test array:"
 myArray = [0, 43, 11, 21, 32, 99, 34, 101, 5, 8, 76]
 
 print myArray
-print "Sorted Ascending: " + str(bubbleSort(myArray, True))
-print "Sorted Descending: " + str(bubbleSort(myArray, False))
+print "Sorted Ascending: " + str(bSort(myArray, True))
+print "Sorted Descending: " + str(bSort(myArray, False))
 print "\n"
 
 print "ASCII Test array:"
@@ -48,8 +54,8 @@ print "ASCII Test array:"
 asciiArray = ["a", "f", "h", "z", "x"]
 
 print asciiArray
-print "Sorted Ascending: " + str(bubbleSort(asciiArray, True))
-print "Sorted Descending: " + str(bubbleSort(asciiArray, False))
+print "Sorted Ascending: " + str(bSort(asciiArray, True))
+print "Sorted Descending: " + str(bSort(asciiArray, False))
 print "\n"
 
 print "Complex ASCII Test array:"
@@ -57,8 +63,8 @@ print "Complex ASCII Test array:"
 complexArray = ["Apple", "Ardvark", "John", "Joe", "Zebra", "Marge", "Moxy", "Niagra", "Noob"]
 
 print complexArray
-print "Sorted Ascending: " + str(bubbleSort(complexArray, True))
-print "Sorted Descending: " + str(bubbleSort(complexArray, False))
+print "Sorted Ascending: " + str(bSort(complexArray, True))
+print "Sorted Descending: " + str(bSort(complexArray, False))
 print "\n"
 
 print "Mixed ASCII Test array:"
@@ -66,7 +72,7 @@ print "Mixed ASCII Test array:"
 mixedArray = ["1Apple", "0Ardvark", "5John", "4Joe", "Zebra3", "9Marge", "9Moxy", "0Marge", "0Moxy", "7Niagra", "1Noob3"]
 
 print mixedArray
-print "Sorted Ascending: " + str(bubbleSort(mixedArray, True))
-print "Sorted Descending: " + str(bubbleSort(mixedArray, False))
+print "Sorted Ascending: " + str(bSort(mixedArray, True))
+print "Sorted Descending: " + str(bSort(mixedArray, False))
 print "\n"
 '''
