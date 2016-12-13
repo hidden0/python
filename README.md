@@ -2,17 +2,17 @@
 Defines a routine set of functions for handling data structures, file I/O, as well as threading in a Python script.
 
 ## How to use
--Ensure the `lib/` folder is inside your python project.
--Load the library via `import lib`
--Access methods as such:
+- Ensure the `lib/` folder is inside your python project.
+- Load the library via `import lib`
+- Access methods as such:
 
-   Bubble Sort:		lib.bubbleSort.bSort(array,sortOrder)
-   Binary Search:	lib.binarySearch.binSearch(array,target,sortOrder)
+   - Bubble Sort:		lib.bubbleSort.bSort(array,sortOrder)
+   - Binary Search:	lib.binarySearch.binSearch(array,target,sortOrder)
 
--Tests can be ran by appending "Test" to the end of the function with no parameters:
+- Tests can be ran by appending "Test" to the end of the function with no parameters:
 
-   Bubble Sort:		lib.bubbleSort.bSortTest()
-   Binary Search:	lib.binarySearch.binSearchTest()
+   - Bubble Sort:		lib.bubbleSort.bSortTest()
+   - Binary Search:	lib.binarySearch.binSearchTest()
 
 ## Library
 - [bubbleSort.py](lib/bubbleSort.py)
